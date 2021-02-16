@@ -380,7 +380,7 @@ footer a img{
 
 /* =========== STORES ========== */
 .stores h1 {
-    margin: 3rem 0 1rem 0;
+    margin: 4rem 0 0rem 0;
     color: var(--secundary);
 }
 
@@ -415,8 +415,6 @@ footer a img{
     margin: 10px auto;
     width: 90%;
     height: 50%;
-   
-    
 }
 
 .storePicture img {
@@ -424,6 +422,9 @@ footer a img{
     height: 100%;
     object-fit: cover;
     border-radius: 15px;
+}
+.information {
+    width: 90%;
 }
 .information h3 {
     color: var(--modernBlack);
@@ -437,11 +438,13 @@ footer a img{
 }
 
 .cuponClass {
-    margin-top: 15px;
+    margin-top: 5px;
     color: white;
     padding: 4px 10px;
     border-radius: 15px;
     font-size: 12px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.8);
 }
 .master {
     background: var(--master);
@@ -453,7 +456,50 @@ footer a img{
     background: var(--junior);
 }
 
+/* ========= MODAL STORE ============= */
+.modalStore {
+    background: var(--principal);
+}
 
+#storeModal {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 100%;
+}
+.store {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;    
+    
+}
+.store .information {
+    width: 90%;
+    
+}
+.store .information h3 {
+    color:white;
+    font-size: 36px;
+    line-height: 2rem;
+    text-shadow: 2px 2px 3px var(--modernBlack);
+}
+
+.store .information p {
+    margin: 1rem 0;
+    font-size: 24px;
+    color:white;
+    text-shadow: 2px 2px 3px var(--modernBlack);
+}
+
+.storeMap {
+    padding-bottom: 1rem;
+    margin: 1rem 1rem;
+    width: 95%;
+    height:400px;
+}
 
 
 /* ======= RESPONSIVE ========== */
@@ -587,4 +633,47 @@ footer a img{
     .howItWorks {
         grid-template-columns: 1fr;
     }
+    .store{
+        margin-bottom: -6rem;
+    }
+
+    .store .information p {
+        margin: 0;
+    }
+    #storeModal {
+        display: flex;
+        flex-direction: column;
+}
+
+@media (max-width:920px) {
+    .cards {
+        
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+@media (max-width:605px) {
+    .cards {
+        
+        grid-template-columns: 1fr;
+        
+    }
+    .storeMap {
+       margin-top: 3rem;
+        
+    }
+    .store .information h3 {
+        
+        font-size: 24px;
+        line-height: 1.5rem;
+        
+    }
+    
+    .store .information p {
+       
+        font-size: 14px;
+        
+    }
+    
 }

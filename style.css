@@ -367,8 +367,15 @@ footer a img{
     box-shadow: 3px 3px 0px 0 rgba(0, 0, 0, 0.8);
     margin: 15px auto;
     width: 95%;
-    min-width: 600px;
-   
+    /* min-width: 600px; */
+}
+.containerMap {
+    width: 100%;
+    min-height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    
 }
 
 .mapBig img {
@@ -643,7 +650,7 @@ footer a img{
     #storeModal {
         display: flex;
         flex-direction: column;
-}
+}}
 
 @media (max-width:920px) {
     .cards {
@@ -674,6 +681,4 @@ footer a img{
        
         font-size: 14px;
         
-    }
-    
-}
+    }}

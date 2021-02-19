@@ -40,7 +40,7 @@ const stores = [
     category:"DECORACION",
     adress:"Cachimayo 21",
     contact:"evamungiardo@hotmail.com",
-    picture:"./assets/stores/decoraciones.jpg",
+    picture:"./assets/stores/DECORACIONES.jpg",
     cuponClass: "senior",
     id: 5
     },
@@ -58,7 +58,7 @@ const stores = [
     category:"FARMACIA",
     adress:"Av Directorio 1249",
     contact:"smdirectorio3@hotmail.com",
-    picture:"./assets/stores/farmacia.jpg",
+    picture:"./assets/stores/FARMACIA.jpg",
     cuponClass: "senior",
     id: 7
 
@@ -86,7 +86,7 @@ const stores = [
     category:"HAMBURGUER",
     adress:"Doblas 607",
     contact:"helohimapitrelli@gmail.com",
-    picture:"./assets/stores/hamburguer.jpg",
+    picture:"./assets/stores/HAMBURGUER.jpg",
     cuponClass: "senior",
     id:10
     },
@@ -113,7 +113,7 @@ const stores = [
     category:"PASTAS FABR",
     adress:"Av Directorio 934",
     contact:"italgam41@gmail.com",
-    picture:"./assets/stores/pastascivi.jpg",
+    picture:"./assets/stores/PASTASCIVI.jpg",
     cuponClass: "senior",
     id:13
     },
@@ -122,7 +122,7 @@ const stores = [
     category:"PET SHOP",
     adress:"Jose Bonifacio 1681",
     contact:"dolcettoanimalpet@gmail.com",
-    picture:"./assets/stores/petshop.jpg",
+    picture:"./assets/stores/PETSHOP.jpg",
     cuponClass: "senior",
     id:14
     },
@@ -131,7 +131,7 @@ const stores = [
     category:"PIZZERIA",
     adress:"Av Directorio 902",
     contact:"miguelito1987@hotmail.com",
-    picture:"./assets/stores/pizza1.jpg",
+    picture:"./assets/stores/PIZZA1.jpg",
     cuponClass: "senior",
     id: 15
     },
@@ -140,7 +140,7 @@ const stores = [
     category:"PODOLOGO",
     adress:"Espinosa 68",
     contact:"horacioraposo@ymail.com",
-    picture:"./assets/stores/podologo.jpg",
+    picture:"./assets/stores/PODOLOGO.jpg",
     cuponClass: "senior",
     id:16
     },
@@ -149,7 +149,7 @@ const stores = [
     category:"SPA – CENTRO",
     adress:"Av Juan B Alberdi 1653",
     contact:"",
-    picture:"./assets/stores/spa.jpg",
+    picture:"./assets/stores/SPA.jpg",
     cuponClass: "senior",
     id: 17
     },
@@ -167,7 +167,7 @@ const stores = [
     category:"TURISMO",
     adress:"Av Rivadavia 5283",
     contact:"info@wingalaj.tur.ar",
-    picture:"./assets/stores/turismo.jpg",
+    picture:"./assets/stores/TURISMO.jpg",
     cuponClass: "junior",
     id:19
     },
@@ -185,7 +185,7 @@ const stores = [
     category:"VINOTECA",
     adress:"Yerbal 1101",
     contact:"listanegra1100@gmail.com",
-    picture:"./assets/stores/vinotecalista.jpg",
+    picture:"./assets/stores/VINOTECALISTA.jpg",
     cuponClass: "senior",
     id: 21
     }

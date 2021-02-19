@@ -31,7 +31,7 @@ const stores = [
     category:"COSMETICA",
     adress:"Av Pedro Goyena 1608",
     contact:"laurabartolis.ldb@gmail.com",
-    picture:"./assets/stores/cosmetica.jpg",
+    picture:"./assets/stores/COSMETICA.jpg",
     cuponClass: "senior",
     id: 4
     },

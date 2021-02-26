@@ -1,4 +1,6 @@
 
+// ====== POPULATING STORES -  VAR STORES COMING FROM DATA.JS
+
 const cards = document.querySelector(".cards")
 
 stores.forEach(store => {
@@ -29,24 +31,31 @@ stores.forEach(store => {
                             <div class="cuponClass ${store.cuponClass}" >
                                 <p>Categoria Senior ${store.discount}</p>
                             </div>
-                        </div>`
+                        </div>
+                        <input type="hidden" value="${store.id}">`
     cards.appendChild(div)
 });
 
+//  ====== MODAL
+const modal = document.querySelector('.modal-overlay')
+const closeModal = document.querySelector('.closeModal')
+const storeCards = document.querySelectorAll('.card')
+const modalStore = document.querySelector('.store')
+
+storeCards.forEach(card => {
+    card.addEventListener('click', () => {
+
+        // pegar o id da loja do click
+        let id = card.lastElementChild.value
+
+        // inserir html no modal
+        modalStore.innerHTML = card.children[1].innerHTML
+       
+        modal.classList.add("active")
+    })
+});
 
 
-// <div class="card">
-                        // <h3> Fiambreria </h3>
-                        // <div class="card-content">
-                        //     <div class="storePicture">
-                        //         <img src="./assets/stores/laTranquera.jpg" alt="La Tranquera">
-                        //     </div>
-                        //     <div class="information">
-                        //         <h3>LA TRANQUERA</h3>
-                        //         <p>Av. Pedro Goyena, C1424 CABA, Argentina</p>
-                        //     </div>
-                        //     <div class="cuponClass master" >
-                        //         <p>Categoria Master 20%</p>
-                        //     </div>
-                        // </div>
-//                     </div>
+closeModal.addEventListener('click', () => {
+    modal.classList.remove("active")
+})

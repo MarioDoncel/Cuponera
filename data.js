@@ -68,7 +68,7 @@ const stores = [
     category:"FIAMBRERIA",
     adress:"Av Pedro Goyena 394",
     contact:"bissonegustavo@hotmail.com",
-    picture:"./assets/stores/fiambre1.jpg",
+    picture:"./assets/stores/FIAMBRE1.jpg",
     cuponClass: "senior",
     id: 8
     },

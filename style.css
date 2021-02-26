@@ -377,12 +377,48 @@ footer a img{
     justify-items: center;
     
 }
-
 .mapBig img {
-   
     width: 100%;
-    
-    
+}
+
+/* ================ ABOUT ============ */
+.about {
+    padding: 3.5rem 2rem 0;
+}
+.about h2{
+    color: var(--secundary);
+}
+.about  p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.about p {
+    margin-bottom: 0.5rem;
+    margin-left: 00.5rem;
+}
+
+.about a {
+    text-decoration: none;
+    color: var(--principal);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.about p span {
+    color: var(--modernBlack);
+    text-decoration: underline;
+}
+.about h3{
+    color: var(--secundary);
+}
+
+.about h3, .about h4 {
+    margin: 0.5rem 0rem;
+}
+.about hr {
+    opacity: 40%;
 }
 
 /* =========== STORES ========== */
@@ -473,6 +509,7 @@ footer a img{
 /* ========= MODAL STORE ============= */
 .modalStore {
     background: var(--principal);
+    border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 #storeModal {
@@ -488,10 +525,16 @@ footer a img{
     height: 100%;
     align-items: center;
     text-align: center;    
-    
+}
+.store .storePicture img{
+    max-height: 300px;
+    object-fit: cover;
+    box-shadow: 2px 2px 3px 0px var(--modernBlack);
 }
 .store .information {
     width: 90%;
+    display: block;
+    margin: 1rem 0;
     
 }
 .store .information h3 {
@@ -504,15 +547,22 @@ footer a img{
 .store .information p {
     margin: 1rem 0;
     font-size: 24px;
+    line-height: 24px;
     color:white;
     text-shadow: 2px 2px 3px var(--modernBlack);
 }
 
 .storeMap {
+    
     padding-bottom: 1rem;
     margin: 1rem 1rem;
     width: 95%;
     height:400px;
+    
+}
+.storeMap iframe {
+    
+    box-shadow: 4px 4px 0px 0px var(--modernBlack);
 }
 
 
@@ -647,8 +697,12 @@ footer a img{
     .howItWorks {
         grid-template-columns: 1fr;
     }
+    #storeModal {
+        display: flex;
+        flex-direction: column;
+    }
     .store{
-        margin-bottom: -6rem;
+        max-height: 400px;
     }
 
     .store .information p {
@@ -657,7 +711,9 @@ footer a img{
     #storeModal {
         display: flex;
         flex-direction: column;
-}}
+    }   
+    
+}
 
 @media (max-width:920px) {
     .cards {

@@ -41,17 +41,18 @@ const modal = document.querySelector('.modal-overlay')
 const closeModal = document.querySelector('.closeModal')
 const storeCards = document.querySelectorAll('.card')
 const modalStore = document.querySelector('.store')
+let modalMap = document.querySelector('.storeMap')
 
 storeCards.forEach(card => {
     card.addEventListener('click', () => {
-
+       
         // pegar o id da loja do click
         let id = card.lastElementChild.value
-
         // inserir html no modal
         modalStore.innerHTML = card.children[1].innerHTML
-       
+        modalMap.innerHTML = stores[id-1].map
         modal.classList.add("active")
+        
     })
 });
 

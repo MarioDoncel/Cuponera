@@ -27,8 +27,10 @@
         <img id="logo" src="./assets/logo.png" alt="">
         <div class="containerHeader">        
             <div class="input">
-                <span class="material-icons">manage_search</span>
-                <input type="search" name="search" id="search" placeholder="Establecimiento || Rubro de actividad...">
+                <span id="searchButton" class="material-icons">manage_search</span>
+                <form id="searchForm" action="./search-results.html">
+                    <input type="search" name="search" id="search" placeholder="Establecimiento || Rubro de actividad...">
+                </form>
             </div>
             <div class="menu">
                 <div class="line"></div>
@@ -86,5 +88,6 @@
         </div>
     </footer>
     <script src="./scriptMenu.js"></script>
+    <script src="./filter.js"></script>
 </body>
 </html>

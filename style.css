@@ -99,6 +99,9 @@ main {
     gap: 1rem;
     width: 100%;
 }
+#searchButton {
+    cursor: pointer;
+}
 
 /* =========== PRINCIPAL ========= */
 .principal{

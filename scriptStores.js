@@ -16,6 +16,7 @@ stores.forEach(store => {
             break;
     
     }
+    let telephone = store.telephone.replace('-',"")
 
     let div = document.createElement('div')
     div.className = "card"
@@ -27,6 +28,9 @@ stores.forEach(store => {
                             <div class="information">
                                 <h3>${store.name}</h3>
                                 <p>${store.adress}, CABA, Buenos Aires</p>
+                                <a href="https://api.whatsapp.com/send?phone=5491133146851">
+                                    <p>(11) ${store.telephone} - click para contacto</p>
+                                </a>
                             </div>
                             <div class="cuponClass ${store.cuponClass}" >
                                 <p>Categoria Senior ${store.discount}</p>

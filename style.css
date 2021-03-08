@@ -15,14 +15,16 @@
 }
 
 body {
-    
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     font-family: 'Poppins', sans-serif;
 }
 
 .containerBody {
     min-height: 45vh;
     width: 85%;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
 }
 
 /* ========= HEADER ============== */
@@ -215,7 +217,7 @@ footer{
     margin-top: 2rem;
     background: var(--modernBlack);
     width: 100%;
-    /* height: 116px; */
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,7 +242,8 @@ footer a img{
 
 
 
-.copyright {
+.footerText {
+    margin-top: 0.5rem;
     color: white;
 }
 
@@ -429,6 +432,9 @@ footer a img{
     margin: 4rem 0 0rem 0;
     color: var(--secundary);
 }
+.card {
+    cursor: zoom-in;
+}
 
 .cards {
     display: grid;
@@ -472,26 +478,31 @@ footer a img{
 .information {
     display: grid;
     width: 90%;
+    margin: auto;
 }
 .information h3 {
     display: inline-block;
-    height: 40px;
     color: var(--modernBlack);
     font-size: 16px;
     line-height: 16px;
-    
 }
 
 .information p {
-    display: inline-block;
-    height: 24px;
+    display: block;
     font-size: 12px;
     line-height: 12px;
     color: #696969;
 }
+.information a {
+    text-decoration: none;
+    margin-top: 4px;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px rgb(115, 253, 115);
+}
 
 .cuponClass {
-   margin-top: 8px;
+    margin-top: auto;
+    margin-bottom: 8px;
     color: white;
     padding: 4px 10px;
     border-radius: 15px;
@@ -531,8 +542,8 @@ footer a img{
 }
 .store .storePicture img{
     max-height: 300px;
-    object-fit: cover;
-    box-shadow: 2px 2px 3px 0px var(--modernBlack);
+    object-fit: contain;
+    /* box-shadow: 2px 2px 3px 0px var(--modernBlack); */
 }
 .store .information {
     width: 90%;

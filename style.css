@@ -1,11 +1,11 @@
 :root  {
-    --principal: #225560;
-    --secundary: #e4572e;
-    --modernBlack: #2e282a;
-    --gray: #e0e0e0;
-    --junior: #000f08;
-    --senior: #136f63;
-    --master: #f34213;
+    --principal: #9c3;
+    --secundary: #f33;
+    --modernBlack: #434343;
+    --gray: #e6e6e6;
+    --junior: #bf1313;
+    --senior: #5798d9;
+    --master: #049e18;
 }
 
 * {
@@ -18,13 +18,14 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .containerBody {
+    
     min-height: 45vh;
-    width: 85%;
-    margin: 0 auto 1rem;
+    width: 80%;
+    margin: auto auto 1rem;
 }
 
 /* ========= HEADER ============== */
@@ -34,6 +35,9 @@ header {
     padding: 1rem;
     color: white;
     font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 img#logo{
@@ -57,11 +61,13 @@ header .containerHeader {
 
 .input{
     min-width: 150px;
-    width: 30%;
+    flex: 1;
     display: flex;
     align-items: center;
 }
-
+header form {
+    flex: 1;
+}
 header input{
     height: 2rem;
     width: 100%;
@@ -79,6 +85,8 @@ header input::placeholder {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
     justify-items: center;
+    margin-left: auto;
+    
 }
 .linksResponsive {
     display: none;
@@ -89,13 +97,12 @@ header a{
     margin-left: 0.5rem;
     color: white;
     padding: 0 0.5rem;
-    border-left: 1px solid rgba(243, 243, 243, 0.2);
+    border-left: 2px solid rgba(73, 72, 72, 0.2);
 }
 
 
 /* ========= MAIN ============== */
 main {
-    margin-top: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
@@ -124,40 +131,43 @@ main {
    }
 
 .principal h1 {
-    font-size: 70px;
-    line-height: 77px;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: 5px;
 }
 
 .principal h2 {
     margin-top: 0.1rem;
-    font-size: 48px;
+    font-size: 36px;
 }
 
 .principal h3 {
-    margin-top: 1rem;
+    margin-top: 2rem;
     font-size: 36px;
     font-weight:normal;
-    line-height: 55px;
+    line-height: 48px;
+    color: var(--modernBlack);
 }
 
 .principal button {
     cursor: pointer;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding: 20px 50px;
     outline: 0;
     
-    color: white;
+    color: black;
     border: none;
     border-radius: 15px;
-    background-color: var(--principal);
+    background-color: #c1f261;
     font-size: 30px;
-    box-shadow: 3px 3px 0px 0 rgba(0, 0, 0, 0.8);
+    box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.8);
+    
 }
 .principal button:hover {
     box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.0);
-
+    transition: 500ms;
     margin-left: 3px;
-    transition: 150ms;
+    transition: 300ms;
 }
 
 /* ========= DISTRIBUTION ============== */
@@ -167,10 +177,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
-
-
 .distribution .imageTop{
     display: flex;
     align-items: center;
@@ -186,9 +193,7 @@ main {
     width: 100px;
     object-fit: cover;
     z-index: 1;
-    
 }
-
 .distribution .map img {
     cursor: pointer;
     margin-top: -2rem;
@@ -205,7 +210,7 @@ main {
 .distribution .text p {
     margin-top: 0.5rem;
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
 }
 
 .distribution .text p span {
@@ -299,7 +304,7 @@ footer a img{
     background: var(--gray);
     font-weight: bold;
     font-size: 12px;
-    color: var(--principal);
+    color: var(--modernBlack);
     padding: 2px 8px;
     border-radius: 5px;
     bottom: 8%;
@@ -390,6 +395,7 @@ footer a img{
 /* ================ ABOUT ============ */
 .about {
     padding: 3.5rem 2rem 0;
+    color: var(--modernBlack);
 }
 .about h2{
     color: var(--secundary);
@@ -397,7 +403,7 @@ footer a img{
 .about  p {
     margin-top: 0.5rem;
     font-size: 1rem;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
 }
 
 .about p {
@@ -407,7 +413,7 @@ footer a img{
 
 .about a {
     text-decoration: none;
-    color: var(--principal);
+    color: rgb(22, 158, 22);
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -431,6 +437,8 @@ footer a img{
 .stores h1 {
     margin: 4rem 0 0rem 0;
     color: var(--secundary);
+    text-align: center;
+    margin-bottom: 1rem;
 }
 .card {
     cursor: zoom-in;
@@ -448,19 +456,21 @@ footer a img{
     font-size: 1.5rem;
     line-height: 2rem;
     text-align: center;
-    color: var(--principal);
+    color: var(--modernBlack);
+    margin-bottom: 0.5rem;
 }
 
 .card-content {
     width: 256px;
-    height: 256px;
-    background: var(--gray);
+    height: 300px;
+    /* background: var(--gray); */
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.8);
+    border: 3px dashed var(--gray);
+    /* box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.4); */
     color: var(--modernBlack);
 }
 .storePicture {
@@ -483,8 +493,9 @@ footer a img{
 .information h3 {
     display: inline-block;
     color: var(--modernBlack);
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
+    margin-bottom: 0;
 }
 
 .information p {
@@ -493,22 +504,41 @@ footer a img{
     line-height: 12px;
     color: #696969;
 }
+
 .information a {
+    display: block;
+    margin: 0 auto;
     text-decoration: none;
     margin-top: 4px;
     font-weight: bold;
-    text-shadow: 0px 0px 2px rgb(115, 253, 115);
+    padding: 4px 4px;
+    border-radius: 4px;
+}
+.messageStore {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 4px 4px;
+}
+.messageStore span {
+    color: var(--principal);
+}
+.information a p{
+    display: inline-block;
+    
 }
 
 .cuponClass {
-    margin-top: auto;
-    margin-bottom: 8px;
-    color: white;
+    width: 75%;
+    margin: auto auto 8px;
     padding: 4px 10px;
     border-radius: 15px;
-    font-size: 12px;
     border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.8);
+}
+.information .cuponClass p{
+    color: white;
 }
 .master {
     background: var(--master);
@@ -522,7 +552,7 @@ footer a img{
 
 /* ========= MODAL STORE ============= */
 .modalStore {
-    background: var(--principal);
+    background-color: var(--gray);
     border: 2px solid rgba(255, 255, 255, 0.2);
 }
 
@@ -537,8 +567,9 @@ footer a img{
     flex-direction: column;
     width: 100%;
     height: 100%;
-    align-items: center;
-    text-align: center;    
+    align-items:center;
+    text-align: center;  
+    justify-content: center;  
 }
 .store .storePicture img{
     max-height: 300px;
@@ -547,27 +578,27 @@ footer a img{
 }
 .store .information {
     width: 90%;
-    display: block;
+    /* display: block; */
     margin: 1rem 0;
     
 }
 .store .information h3 {
-    color:white;
+    color:var(--modernBlack);
     font-size: 36px;
     line-height: 2rem;
-    text-shadow: 2px 2px 3px var(--modernBlack);
 }
 
 .store .information p {
-    margin: 1rem 0;
     font-size: 24px;
     line-height: 24px;
-    color:white;
-    text-shadow: 2px 2px 3px var(--modernBlack);
+    color:var(--modernBlack);
+}
+.store .information .cuponClass p{
+    color: white;
 }
 
 .storeMap {
-    
+    display: block;
     padding-bottom: 1rem;
     margin: 1rem 1rem;
     width: 95%;
@@ -576,7 +607,7 @@ footer a img{
 }
 .storeMap iframe {
     
-    box-shadow: 4px 4px 0px 0px var(--modernBlack);
+    box-shadow: 0px 0px 8px 0px var(--modernBlack);
 }
 
 
@@ -644,7 +675,8 @@ footer a img{
         text-decoration: none;
         color: white;
         padding: 0 0.5rem;
-        border-left: 1px solid rgba(243, 243, 243, 0.2);
+        border-left: 2px solid rgba(73, 72, 72, 0.2);
+        text-transform: uppercase;
     }
     #closeMenu{
         cursor: pointer;
@@ -715,13 +747,11 @@ footer a img{
         display: flex;
         flex-direction: column;
     }
-    .store{
-        max-height: 400px;
-    }
 
     .store .information p {
         margin: 0;
     }
+    
     #storeModal {
         display: flex;
         flex-direction: column;
@@ -743,10 +773,10 @@ footer a img{
         grid-template-columns: 1fr;
         
     }
-    .storeMap {
+    /* .storeMap {
        margin-top: 3rem;
         
-    }
+    } */
     .store .information h3 {
         
         font-size: 24px;

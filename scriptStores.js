@@ -28,7 +28,7 @@ stores.forEach(store => {
                             <div class="information">
                                 <h3>${store.name}</h3>
                                 <p>${store.adress}</p>
-                                <a href="https://api.whatsapp.com/send?phone=5491133146851">
+                                <a href="https://api.whatsapp.com/send?phone=54911${store.telephone.replace('-',"")}">
                                     <div class="messageStore">
                                     <span class="material-icons">
                                         question_answer
@@ -37,7 +37,7 @@ stores.forEach(store => {
                                     </div>
                                 </a>
                                 <div class="cuponClass ${store.cuponClass}" >
-                                    <p>Categoria Senior ${store.discount}</p>
+                                    <p>Categoria ${store.cuponClass.toUpperCase()} ${store.discount}</p>
                                 </div>
                             </div>
                         </div>

@@ -155,12 +155,13 @@ main {
     padding: 20px 50px;
     outline: 0;
     
-    color: black;
+    color: rgb(34, 34, 34);
     border: none;
     border-radius: 15px;
     background-color: #c1f261;
     font-size: 30px;
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
     
 }
 .principal button:hover {

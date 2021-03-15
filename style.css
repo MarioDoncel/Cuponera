@@ -474,6 +474,10 @@ footer a img{
     /* box-shadow: 0px 0px 8px -4px rgba(0, 0, 0, 0.4); */
     color: var(--modernBlack);
 }
+.card-content:hover{
+    border: 3px dashed #1c6bb9;
+    background: #f0f1ff;
+}
 .storePicture {
     margin: 10px auto;
     width: 90%;
@@ -529,6 +533,10 @@ footer a img{
 .information a p{
     display: inline-block;
     
+}
+.information a p:hover{
+    text-decoration: underline;
+    color: rgb(99, 143, 11);
 }
 
 .cuponClass {

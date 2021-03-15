@@ -527,8 +527,9 @@ footer a img{
     border-radius: 4px;
     padding: 4px 4px;
 }
-.messageStore span {
+.messageStore i {
     color: var(--principal);
+    margin-right: 4px;
 }
 .information a p{
     display: inline-block;

@@ -30,9 +30,7 @@ stores.forEach(store => {
                                 <p>${store.adress}</p>
                                 <a href="https://api.whatsapp.com/send?phone=54911${store.telephone.replace('-',"")}">
                                     <div class="messageStore">
-                                    <span class="material-icons">
-                                        question_answer
-                                    </span>
+                                    <i class="fab fa-whatsapp"></i>
                                     <p>(11) ${store.telephone}</p>
                                     </div>
                                 </a>

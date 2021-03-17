@@ -630,7 +630,7 @@ footer a img{
     }
 
     .input{
-        width: 100%;
+        flex: 1;
     }
     .menu {
         margin-left: -2rem;

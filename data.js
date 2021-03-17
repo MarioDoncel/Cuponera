@@ -52,6 +52,19 @@ const stores = [
     id: 4
     },
     {
+    name:"MARTA LALE",
+    category:"COSMETICOS",
+    adress:"Aranguren y Acoyte",
+    contact:"espaciofem@gmail.com",
+    picture:"./assets/stores/candelaofertas.jpg",
+    cuponClass: "senior",
+    facebook:"",
+    instagram:"",
+    telephone:"5025-8136",
+    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.65821714874!2d-58.44058918594219!3d-34.612803180457135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6a940c9df5%3A0xe7a2114a6a3fab19!2sAv.%20Acoyte%20%26%20Dr.%20Juan%20Felipe%20Aranguren%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987811413!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 22
+    },
+    {
     name:"GRIMAVE DECORACIONES",
     category:"DECORACION",
     adress:"Cachimayo 21",
@@ -76,6 +89,19 @@ const stores = [
     telephone:"4632-4673",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1717985783475!2d-58.45675878560824!3d-34.62509858045394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2458ecde1f%3A0xb776e26d35412175!2sAv.%20Tte.%20Gral.%20Donato%20%C3%81lvarez%2050%2C%20C1406%20BNN%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614538955498!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     id: 6
+    },
+    {
+    name:"TRISKEL",
+    category:"ESTETICA",
+    adress:"Valle 579",
+    contact:"esteticatriskel@gmail.com",
+    picture:"./assets/stores/ESTETRISKEL.jpg",
+    cuponClass: "senior",
+    facebook:"",
+    instagram:"",
+    telephone:"3321-9366",
+    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26266.03502967847!2d-58.45711275745414!3d-34.62301143821816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca48c1b5884f%3A0x21d817c8ecb7b7e!2sValle%20579%2C%20C1424%20BVK%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987875325!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 23
     },
     {
     name:"FARMACIA SM",
@@ -209,6 +235,19 @@ const stores = [
     id:16
     },
     {
+    name:"ESTUDIO AFRICA",
+    category:"ROPA TRABAJO",
+    adress:"Rivadavia 5283",
+    contact:"info@estudioafrica.com.ar",
+    picture:"./assets/stores/indumentaria.jpg",
+    cuponClass: "senior",
+    facebook:"",
+    instagram:"",
+    telephone:"5478-9248",
+    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3884816722207!2d-58.44230958519468!3d-34.619621865845886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4755f54117%3A0x965b67b6673fb69e!2sGaler%C3%ADa%20Caribe%2C%20Av.%20Rivadavia%205283%2C%20C1424CEH%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987913377!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 24
+    },
+    {
     name:"SPA EQUILIBRIO CHI",
     category:"SPA – CENTRO",
     adress:"Av Juan B Alberdi 1653",
@@ -272,45 +311,6 @@ const stores = [
     telephone:"6955-1478",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3261108445345!2d-58.448889485608426!3d-34.621198380454885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3bf7f5a135%3A0x7486a3a1dc42c4f0!2sYerbal%201101%2C%20C1406GJC%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539461830!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     id: 21
-    },
-    {
-    name:"MARTA LALE",
-    category:"COSMETICOS",
-    adress:"Aranguren y Acoyte",
-    contact:"espaciofem@gmail.com",
-    picture:"./assets/stores/candelaofertas.jpg",
-    cuponClass: "senior",
-    facebook:"",
-    instagram:"",
-    telephone:"5025-8136",
-    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.65821714874!2d-58.44058918594219!3d-34.612803180457135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6a940c9df5%3A0xe7a2114a6a3fab19!2sAv.%20Acoyte%20%26%20Dr.%20Juan%20Felipe%20Aranguren%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987811413!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 22
-    },
-    {
-    name:"TRISKEL",
-    category:"ESTETICA",
-    adress:"Valle 579",
-    contact:"esteticatriskel@gmail.com",
-    picture:"./assets/stores/ESTETRISKEL.jpg",
-    cuponClass: "senior",
-    facebook:"",
-    instagram:"",
-    telephone:"3321-9366",
-    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26266.03502967847!2d-58.45711275745414!3d-34.62301143821816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca48c1b5884f%3A0x21d817c8ecb7b7e!2sValle%20579%2C%20C1424%20BVK%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987875325!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 23
-    },
-    {
-    name:"ESTUDIO AFRICA",
-    category:"ROPA TRABAJO",
-    adress:"Rivadavia 5283",
-    contact:"info@estudioafrica.com.ar",
-    picture:"./assets/stores/indumentaria.jpg",
-    cuponClass: "senior",
-    facebook:"",
-    instagram:"",
-    telephone:"5478-9248",
-    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3884816722207!2d-58.44230958519468!3d-34.619621865845886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4755f54117%3A0x965b67b6673fb69e!2sGaler%C3%ADa%20Caribe%2C%20Av.%20Rivadavia%205283%2C%20C1424CEH%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987913377!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 24
     }
     
     ]

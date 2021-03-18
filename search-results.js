@@ -2,17 +2,28 @@ const params = new URL(location.href).searchParams;
 const filter = params.get('search');
 
 const cards = document.querySelector(".cards")
+const classStores = document.querySelector(".stores")
+const input = document.querySelector("input")
+
+input.value = filter
 
 let filteredStores = []
 
+// Filtrando .data com parametros da busca
 stores.forEach(store => {
     if(store.name.includes(filter.toUpperCase()) || store.category.includes(filter.toUpperCase())) {
         filteredStores.push(store)
     }
 })
 
-console.log(filteredStores)
+// Retorno em caso de busca vazia
+if (filteredStores.length == 0) {
+    let h3 = document.createElement('h3')
+    h3.innerHTML = '<h3> Ninguna tienda o categoria encontrada!  </h3>'
+    classStores.appendChild(h3)
+}
 
+// Populando resultados da busca
 filteredStores.forEach(store => {
     switch (store.cuponClass) {
         case "junior":
@@ -26,7 +37,6 @@ filteredStores.forEach(store => {
             break;
     
     }
-
     let div = document.createElement('div')
     div.className = "card"
     div.innerHTML = `   <h3> ${store.category} </h3>
@@ -39,9 +49,7 @@ filteredStores.forEach(store => {
                                 <p>${store.adress}</p>
                                 <a href="https://api.whatsapp.com/send?phone=54911${store.telephone.replace('-',"")}">
                                     <div class="messageStore">
-                                    <span class="material-icons">
-                                        question_answer
-                                    </span>
+                                    <i class="fab fa-whatsapp"></i>
                                     <p>(11) ${store.telephone}</p>
                                     </div>
                                 </a>

@@ -57,12 +57,12 @@ const stores = [
     adress:"Aranguren y Acoyte",
     contact:"espaciofem@gmail.com",
     picture:"./assets/stores/candelaofertas.jpg",
-    cuponClass: "senior",
+    cuponClass: "master",
     facebook:"",
     instagram:"",
     telephone:"5025-8136",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.65821714874!2d-58.44058918594219!3d-34.612803180457135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6a940c9df5%3A0xe7a2114a6a3fab19!2sAv.%20Acoyte%20%26%20Dr.%20Juan%20Felipe%20Aranguren%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987811413!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 22
+    id: 5
     },
     {
     name:"GRIMAVE DECORACIONES",
@@ -75,7 +75,7 @@ const stores = [
     instagram:"",
     telephone:"4432-3672",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.304521020061!2d-58.44507438560838!3d-34.6217440804548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca38e475608b%3A0x43b19ce3275a9909!2sCachimayo%2021%2C%20C1424AQA%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614538903299!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 5
+    id: 6
     },
     {
     name:"DIETÉTICA HENRYS",
@@ -88,7 +88,7 @@ const stores = [
     instagram:"",
     telephone:"4632-4673",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1717985783475!2d-58.45675878560824!3d-34.62509858045394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2458ecde1f%3A0xb776e26d35412175!2sAv.%20Tte.%20Gral.%20Donato%20%C3%81lvarez%2050%2C%20C1406%20BNN%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614538955498!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 6
+    id: 7
     },
     {
     name:"TRISKEL",
@@ -101,7 +101,7 @@ const stores = [
     instagram:"",
     telephone:"3321-9366",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26266.03502967847!2d-58.45711275745414!3d-34.62301143821816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca48c1b5884f%3A0x21d817c8ecb7b7e!2sValle%20579%2C%20C1424%20BVK%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987875325!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 23
+    id: 8
     },
     {
     name:"FARMACIA SM",
@@ -114,7 +114,7 @@ const stores = [
     instagram:"",
     telephone:"4988-0033",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0850451563147!2d-58.42958098560812!3d-34.627291080453446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca526a3a812f%3A0x652a884be25a0527!2sAv.%20Directorio%2050%2C%20C1424CIN%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614538998553!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 7
+    id: 9
 
     },
     {
@@ -128,7 +128,7 @@ const stores = [
     instagram:"",
     telephone:"5940-1391",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1417470249635!2d-58.43479578560833!3d-34.62585808045375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4eeb759ceb%3A0xf76dc70cf79f7cd9!2sAv.%20Pedro%20Goyena%20394%2C%20C1424BSQ%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539058147!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 8
+    id: 10
     },
     {
     name:"GRANJA L P",
@@ -141,7 +141,7 @@ const stores = [
     instagram:"",
     telephone:"2446-1414",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1160.9875589936821!2d-58.446913177670105!3d-34.61000984299245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca1169db453b%3A0xd53b603d2f7ac785!2sFranklin%20914%2C%20C1405%20DEL%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539119281!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 9
+    id: 11
     },
     {
     name:"LA CATEDRAL BURGUER",
@@ -154,7 +154,7 @@ const stores = [
     instagram:"",
     telephone:"3762-4737",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.210249481032!2d-58.43276688560832!3d-34.6241267804541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4e4b3a0957%3A0x6a17210f80bf34e2!2sDoblas%20607%2C%20C1424%20BLM%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539154341!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id:10
+    id:12
     },
     {
     name:"INGLES &PORTUGUES",
@@ -167,7 +167,7 @@ const stores = [
     instagram:"",
     telephone:"5175-5323",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2153495555385!2d-58.44695088560833!3d-34.62399788045418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3991156c29%3A0x6653027603e95e7c!2sVictor%20Mart%C3%ADnez%20150%2C%20C1406CDD%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539188265!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 11
+    id: 13
     },
     {
     name:"MUNDO PAÑAL",
@@ -180,7 +180,7 @@ const stores = [
     instagram:"",
     telephone:"4922-2912",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.147231130275!2d-58.42911558560827!3d-34.62571948045372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca5226b0f41f%3A0x1e1b1713d1dd681b!2sAv.%20La%20Plata%20834%2C%20C1424%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539209017!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id:12
+    id:14
     },
     {
     name:"PASTAS CIVITAVECCHIA",
@@ -193,7 +193,7 @@ const stores = [
     instagram:"",
     telephone:"5663-4218",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.013980926677!2d-58.44246988560809!3d-34.62908698045291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3601ba39f7%3A0xff6bf0ab3b55f203!2sAv.%20Directorio%20934%2C%20C1424CIW%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539234624!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id:13
+    id:15
     },
     {
     name:"DOLCETTO ANIMAL SHOP",
@@ -206,7 +206,7 @@ const stores = [
     instagram:"",
     telephone:"3512-6969",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.00244984882!2d-58.45401258560812!3d-34.62937838045284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2fd9bb6f1b%3A0xad328bce6dd923bf!2sJos%C3%A9%20Bonifacio%201681%2C%20C1406%20GXK%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539271224!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id:14
+    id:16
     },
     {
     name:"SALUTE GARIBALDI DIRECTORIO",
@@ -219,7 +219,7 @@ const stores = [
     instagram:"",
     telephone:"3090-7244",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0158447271024!2d-58.4419226856082!3d-34.629039880452936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca49f8c11251%3A0xfbeac3738a826003!2sAv.%20Directorio%20902%2C%20C1424CIW%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539293576!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 15
+    id: 17
     },
     {
     name:"CONSULT. PODOLÓGICO CABALLITO",
@@ -232,7 +232,7 @@ const stores = [
     instagram:"",
     telephone:"3033-2221",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3055773735414!2d-58.448516985608386!3d-34.62171738045486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3bfb5297f3%3A0xba4ba0a7768be97a!2sEspinosa%2068%2C%20C1406CBB%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539324719!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id:16
+    id:18
     },
     {
     name:"ESTUDIO AFRICA",
@@ -245,7 +245,7 @@ const stores = [
     instagram:"",
     telephone:"5478-9248",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3884816722207!2d-58.44230958519468!3d-34.619621865845886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4755f54117%3A0x965b67b6673fb69e!2sGaler%C3%ADa%20Caribe%2C%20Av.%20Rivadavia%205283%2C%20C1424CEH%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1615987913377!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 24
+    id: 19
     },
     {
     name:"SPA EQUILIBRIO CHI",
@@ -258,7 +258,7 @@ const stores = [
     instagram:"",
     telephone:"2243-3925",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.087170029603!2d-58.454087685608144!3d-34.627237380453444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca25549a1aff%3A0x2160223cf5e4d2e!2sAv.%20Juan%20Bautista%20Alberdi%201653%2C%20C1406%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539363087!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 17
+    id: 20
     },
     {
     name:"TELMAX TELEFONIA",
@@ -271,7 +271,7 @@ const stores = [
     instagram:"",
     telephone:"3797-9621",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.164941572926!2d-58.42911168560827!3d-34.625271880453845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca51897a0b99%3A0x2fea2479843aa44f!2sAv.%20La%20Plata%20814%2C%20C1424%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539386463!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id:18
+    id:21
     },
     {
     name:"WINGALAJ VIAJES",
@@ -284,7 +284,7 @@ const stores = [
     instagram:"",
     telephone:"5602-3580",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3883070227944!2d-58.442309585608456!3d-34.61962628045531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4755f54117%3A0x965b67b6673fb69e!2sGaler%C3%ADa%20Caribe%2C%20Av.%20Rivadavia%205283%2C%20C1424CEH%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539411903!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id:19
+    id:22
     },
     {
     name:"CARNES DE BUENOS AIRES",
@@ -297,7 +297,7 @@ const stores = [
     instagram:"",
     telephone:"6402-4215",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.9584932659936!2d-58.45136188560806!3d-34.63048918045255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca31a2387fdb%3A0xc17446cc16f2f4a1!2sMalvinas%20Argentinas%20518%2C%20C1406CXL%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539442146!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id:20
+    id:23
     },
     {
     name:"LISTA NEGRA",
@@ -310,7 +310,7 @@ const stores = [
     instagram:"",
     telephone:"6955-1478",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3261108445345!2d-58.448889485608426!3d-34.621198380454885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3bf7f5a135%3A0x7486a3a1dc42c4f0!2sYerbal%201101%2C%20C1406GJC%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539461830!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 21
+    id: 24
     }
     
     ]

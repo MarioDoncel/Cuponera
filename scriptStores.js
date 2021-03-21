@@ -53,12 +53,19 @@ let modalMap = document.querySelector('.storeMap')
 storeCards.forEach(card => {
     card.addEventListener('click', () => {
        
-        // pegar o id da loja do click
+        // pegar o id e o index da loja do click
         let id = card.lastElementChild.value
+        let index 
+            for (let i = 0; i < stores.length; i++) {
+                if (stores[i].id == id ) {
+                index = i
+                } 
+            }
         // inserir html no modal
         modalStore.innerHTML = card.children[1].innerHTML
-        modalMap.innerHTML = stores[id-1].map
+        modalMap.innerHTML = stores[index].map
         modal.classList.add("active")
+        
         
     })
 });

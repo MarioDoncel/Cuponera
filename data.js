@@ -162,7 +162,7 @@ const stores = [
     adress:"Victor Martinez 150",
     contact:"",
     picture:"./assets/stores/idiomas.jpg",
-    cuponClass: "senior",
+    cuponClass: "master",
     facebook:"",
     instagram:"",
     telephone:"5175-5323",

@@ -170,6 +170,19 @@ const stores = [
     id: 13
     },
     {
+    name:"OPTICA MULTIFOCO",
+    category:"OPTICA",
+    adress:"J.Bautista Alberdi 1400",
+    contact:"",
+    picture:"./assets/stores/opticaMultifoco.jpg",
+    cuponClass: "master",
+    facebook:"@multifocooptica",
+    instagram:"@opticamultifoco",
+    telephone:"",
+    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.768993099567!2d-58.476478384397666!3d-34.635277566676415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9854aed23c5%3A0xa597b6c9b9bc267f!2sAv.%20Juan%20Bautista%20Alberdi%201400%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1620738999983!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 25
+    },
+    {
     name:"MUNDO PAÑAL",
     category:"PAÑALES",
     adress:"Av La Plata 834",

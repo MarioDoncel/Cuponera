@@ -122,7 +122,7 @@ const stores = [
     category:"RESTAURANTE",
     adress:"Colpayo 303",
     contact:"",
-    picture:"./assets/stores/FIAMBRE1.jpg",
+    picture:"./assets/stores/COLPAYO1.jpg",
     cuponClass: "senior",
     facebook:"",
     instagram:"",

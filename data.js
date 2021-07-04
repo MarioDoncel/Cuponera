@@ -248,7 +248,7 @@ const stores = [
     id:18
     },
     {
-        name:"OKAY CABALLITO",
+        name:"OKAY CABALLITO - SPIEDO A LA LEÑA",
         category:"RESTAURANTE",
         adress:"Colpayo 303",
         contact:"",

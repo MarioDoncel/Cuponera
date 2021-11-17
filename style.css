@@ -329,6 +329,7 @@ footer a img{
 }
 
 .textModal h4 {
+    text-indent: 16px;
     margin-top: 0.7rem;
     color: var(--secundary);
 }
@@ -344,7 +345,7 @@ footer a img{
 }
 
 .textModal p {
-    
+    text-indent: 16px;
     margin-top: 0.5rem;
 }
 

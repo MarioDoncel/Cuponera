@@ -78,19 +78,6 @@ const stores = [
     id: 6
     },
     {
-    name:"DIETÉTICA HENRYS",
-    category: "DIETETICA",
-    adress:"Donato Alvarez 50",
-    contact:"",
-    picture:"./assets/stores/dietetica.jpg",
-    cuponClass: "senior",
-    facebook:"",
-    instagram:"",
-    telephone:"4632-4673",
-    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1717985783475!2d-58.45675878560824!3d-34.62509858045394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca2458ecde1f%3A0xb776e26d35412175!2sAv.%20Tte.%20Gral.%20Donato%20%C3%81lvarez%2050%2C%20C1406%20BNN%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614538955498!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 7
-    },
-    {
     name:"TRISKEL",
     category:"ESTETICA",
     adress:"Valle 579",
@@ -155,19 +142,6 @@ const stores = [
     telephone:"5175-5323",
     map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2153495555385!2d-58.44695088560833!3d-34.62399788045418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3991156c29%3A0x6653027603e95e7c!2sVictor%20Mart%C3%ADnez%20150%2C%20C1406CDD%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539188265!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     id: 13
-    },
-    {
-    name:"OPTICA MULTIFOCO",
-    category:"OPTICA",
-    adress:"J.Bautista Alberdi 1400",
-    contact:"",
-    picture:"./assets/stores/opticaMultifoco.jpg",
-    cuponClass: "master",
-    facebook:"@multifocooptica",
-    instagram:"@opticamultifoco",
-    telephone:"",
-    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.768993099567!2d-58.476478384397666!3d-34.635277566676415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9854aed23c5%3A0xa597b6c9b9bc267f!2sAv.%20Juan%20Bautista%20Alberdi%201400%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1620738999983!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 25
     },
     {
     name:"MUNDO PAÑAL",

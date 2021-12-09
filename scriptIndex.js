@@ -4,6 +4,7 @@
 const modal = document.querySelector('.modal-overlay')
 const howItWorks = document.querySelector("#howWorks")
 const howUse = document.querySelector("#howUse")
+const howItIs = document.querySelector("#howItIs")
 let modalHtml;
 
 howItWorks.addEventListener('click', () => {
@@ -38,14 +39,32 @@ howUse.addEventListener('click', () => {
                 <h4>Si Usted ya tiene los 6 (seis) cupones de $ 20 /50 /100 /200 /500 /1.000 le enseñamos como usarlos todos en la mejor categoría de “COMPRA MÍNIMA” posible para economizar hasta 20% sólo por pagar las cuentas en efectivo.</h4>
                 <br>
                 <h5>¿Cómo hacerlo? </h5>
-                <p>Tome el cupón de menor valor $20,- le tacha las compras mínimas (esta es la manera como cada local habilitado lo/la invita a conocer su establecimiento) para usarlo como si fuera dinero y realiza una compra completando su pago con dinero en efectivo. </p>
+                <p>Lo primero a hacer es solicitar los cupones y se los entregaremos en su domicilio (solo entregamos en las Comunas 6 y 7), enseguida escoja en cuál de los establecimientos comerciales habilitados realizará su compra</p>
+                <p>Ahora tome el cupón de menor valor $20,- y notará que le tachamos las compras mínimas (esta es la manera como cada local habilitado lo/la invita a conocer su establecimiento) para que Usted pueda usarlo como si fuera dinero y realice una compra completando su pago con dinero en efectivo. </p>
                 <br> 
-                <p>Ahora que ya se hizo cliente usando el cupón de $20,- le muestra a quien lo atendió el cupón de $50,- para que se lo habilite en la mejor categoría de COMPRA MÍNIMA posible para su próxima compra (solicite que lo haga en la master siempre y ahorre hasta 20%). Así sucesivamente va aumentando el valor de los cupones y consiguiendo un descuento cada vez mayor para una compra de mayor volumen pasando por el de $100,- $200,- $500,- y $1.000,- economizando un total de $1.870,- con la única condición de completar sus pagos en efectivo. </p>
+                <p>Una vez hecha esta compra usando el cupón de $20,- le muestra a quien lo atendió el cupón de $50,- para que se lo habilite en la mejor categoría posible para su próxima compra (solicite que lo haga en la categoría MASTER y siempre conseguirá ahorrar hasta 20%).</p>
+                <p>Así sucesivamente a cada compra le habilitarán un cupón de mayor valor pasando por el de $100,- $200,- $500,- y $1.000,- economizando al usarlos todos un total de $1.870,- con la única condición de completar sus pagos en efectivo..</p>
 
                 <h3>LLEVE SIEMPRE EN SU CARTERA NUESTROS CUPONES PARA ECONOMIZAR SU DINERO</h4>
             </div>
             <div class="imageModal">
                 <img src="./assets/comoUsar.jpg" alt="Como usar">
+            </div>
+        </div>
+        <div class="closeModal" onclick="closeModal()">
+            <span> CERRAR</span>
+        </div>
+    </div>
+    `
+    modal.innerHTML = modalHtml
+    modal.classList.add("active")
+})
+howItIs.addEventListener('click', () => {
+    modalHtml = `
+    <div class="modal">
+        <div class="howItIs">
+            <div class="imageModal">
+                <img src="./assets/ambosModelos.jpg" alt="Como es">
             </div>
         </div>
         <div class="closeModal" onclick="closeModal()">

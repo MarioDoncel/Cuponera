@@ -154,6 +154,7 @@ main {
     margin-top: 1rem;
     padding: 20px 50px;
     outline: 0;
+    width: 80%;
     
     color: rgb(34, 34, 34);
     border: none;
@@ -162,6 +163,10 @@ main {
     font-size: 30px;
     box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.8);
     font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 .principal button:hover {
@@ -169,6 +174,10 @@ main {
     transition: 500ms;
     margin-left: 3px;
     transition: 300ms;
+}
+.principal button img, .principal button i{
+    margin-right: 4px;
+    height: 30px;
 }
 
 /* ========= DISTRIBUTION ============== */
@@ -281,12 +290,13 @@ footer a img{
 
 .modal {
     width: 75%;
-    height: 80%;
+    max-height: 80%;
     background: white;
     border-radius: 10px;
     overflow-y: scroll;
     scroll-behavior: smooth;
     position: relative;
+    display: flex;
 }
 
 ::-webkit-scrollbar {
@@ -302,14 +312,14 @@ footer a img{
 .closeModal span{
     cursor: pointer;
     position: fixed;
-    background: var(--gray);
+    background: rgb(245, 83, 83);
     font-weight: bold;
     font-size: 12px;
-    color: var(--modernBlack);
+    color: #f0f1ff;
     padding: 2px 8px;
     border-radius: 5px;
     bottom: 8%;
-    left: 47%;
+    left: 45%;
     box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.8);
     border: 1px solid var(--modernBlack);
 }
@@ -320,18 +330,28 @@ footer a img{
 .howItWorks{
     display: grid;
     grid-template-columns: 60% 40%;
+    margin: auto 0;
     }
+.howItIs{
+    margin: auto;
+}
+
 
 .textModal {
     padding: 0.7rem;
     line-height: 1.5rem;
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .textModal h4 {
     text-indent: 16px;
     margin-top: 0.7rem;
     color: var(--secundary);
+    
 }
 
 .textModal h3 {
@@ -342,6 +362,10 @@ footer a img{
     border-radius: 5px 5px 0 0 ;
     padding: 0.5rem;
     box-shadow: 3px 3px 0px 0 rgba(0, 0, 0, 0.8);
+}
+
+.textModal h5{
+    font-size: 1.3rem;
 }
 
 .textModal p {
@@ -360,18 +384,24 @@ footer a img{
     border-radius: 3px;
     font-weight: bold;
     
+    
 }
 
 .imageModal {
     width: 90%;
     
     margin: 1rem auto;
-    border: 2px solid var(--modernBlack);
-    box-shadow: 3px 3px 0px 0 rgba(0, 0, 0, 0.8);    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
 }
 
 .imageModal img{
+    border: 2px solid var(--modernBlack);
+    box-shadow: 3px 3px 0px 0 rgba(0, 0, 0, 0.8);
     width: 100%;
+    max-height: 75vh;
 }
 
 /* ========= DISTRIBUTION MAP ============= */
@@ -625,6 +655,44 @@ footer a img{
     box-shadow: 0px 0px 8px 0px var(--modernBlack);
 }
 
+/* ======= CONTACTO ========== */
+
+
+.contact .input{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem ;
+    align-items: flex-start;
+    font-weight: bold;
+}
+.contact .input label{
+    margin-bottom: 0.4rem;
+}
+.contact input,textarea{
+    padding: 10px ;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 70%;
+    resize: none;
+}
+.contact button {
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 20px 50px;
+    outline: 0;
+    width: 70%;
+    color: rgb(34, 34, 34);
+    border: none;
+    border-radius: 15px;
+    background-color: #c1f261;
+    font-size: 30px;
+    box-shadow: 1px 1px 3px 0px rgb(0 0 0 / 80%);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* ======= RESPONSIVE ========== */
 @media (max-width:1052px) {
@@ -803,4 +871,18 @@ footer a img{
        
         font-size: 14px;
         
-    }}
+    }
+
+    .contact{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact input,textarea{
+        width: 100%;
+    }
+    .contact button{
+        font-size: 1rem;
+        width: 100%;
+    }
+}

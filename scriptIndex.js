@@ -15,7 +15,7 @@ howItWorks.addEventListener('click', () => {
                 <h4>USTED PAGA LA CUENTA EN EFECTIVO Y PODRÁ COMPLETAR SU PAGO CON UNO DE NUESTROS CUPONES EN CUALQUIERA DE LOS ESTABLECIMIENTOS HABILITADOS</h4>
                 <p>Siempre le ofrecemos un descuento, puede ser desde hasta 5%, 10% o 20%. Depende de la categoría <small>[Junior, Senior, Master]</small> de COMPRA MÍNIMA escogida por cada establecimiento habilitado. <br><br> Verifique la categoría que escogió cada establecimiento y <a href="./stores.html">descubra los establecimientos comerciales</a>  de su comuna que más valor le dan a su dinero aceptando nuestros cupones!</p>
                 <h4>LOS PUEDE BUSCAR USTED MISMO O RECIBIRLOS EN SU CASA EN LAS COMUNAS 6 Y 7</h4> 
-                <p>Si desea economizar dinero y vive en la Comuna 6 recíbalos en su casa, solicitas la colección completa ($20 $50 $100 $200 $500 $1.000) por mensaje a nuestra página y la recibes gratis en su casa, el costo de la entrega se la paga usted al entregador después de recibir todos los cupones. </p>
+                <p>Si desea economizar dinero y vive en la Comuna 6 recíbalos en su casa, solicita la colección completa ($20 $50 $100 $200 $500 $1.000) por mensaje a nuestra página y la recibe gratis en su casa, el costo de la entrega se la paga usted al entregador después de recibir todos los cupones. </p>
 
                 <h3>LLEVE SIEMPRE EN SU CARTERA NUESTROS CUPONES PARA ECONOMIZAR SU DINERO</h4>
             </div>

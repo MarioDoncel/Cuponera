@@ -296,7 +296,7 @@ footer a img{
     overflow-y: scroll;
     scroll-behavior: smooth;
     position: relative;
-    display: flex;
+    /* display: flex; */
 }
 
 ::-webkit-scrollbar {
@@ -599,9 +599,9 @@ footer a img{
 .modalStore {
     background-color: var(--gray);
     border: 2px solid rgba(255, 255, 255, 0.2);
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 .modalStore .closeModal span{
     font-size: 2rem;
@@ -612,6 +612,7 @@ footer a img{
     justify-items: center;
     height: 100%;
     width: 85%;
+    margin: 0 auto;
 }
 .store {
     display: flex;

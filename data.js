@@ -166,7 +166,7 @@ const stores = [
     facebook:"",
     instagram:"",
     telephone:"5351-5492",
-    map:'<iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0156434764335!2d-58.44198044883!3d-34.62904496625042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4a0204a9b9%3A0x31ad5a1e30238e10!2sAv.%20Eva%20Per%C3%B3n%201009%2C%20C1424CJA%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1625391902771!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0156434726273!2d-58.44197508427297!3d-34.62904496634661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4a0204a9b9%3A0x31ad5a1e30238e10!2sAv.%20Eva%20Per%C3%B3n%201009%2C%20C1424CJA%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1641335424595!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     id:26
     },
     {
@@ -218,7 +218,7 @@ const stores = [
         facebook:"",
         instagram:"",
         telephone:"6000-6400",
-        map:'<iframe src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4999619698942!2d-58.443606684387724!3d-34.61680388045608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3f9ef4b133%3A0xea9e8379aec22858!2sColpayo%20303%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1624241598211!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4999619698942!2d-58.443606684387724!3d-34.61680388045608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3f9ef4b133%3A0xea9e8379aec22858!2sColpayo%20303%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1624241598211!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
         id: 10
     },
     {

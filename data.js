@@ -39,19 +39,6 @@ const stores = [
     id: 3
     },
     {
-    name:"LACA BEAUTY CABALLITO",
-    category:"COSMETICA",
-    adress:"Av Pedro Goyena 1608",
-    contact:"laurabartolis.ldb@gmail.com",
-    picture:"./assets/stores/COSMETICA.jpg",
-    cuponClass: "senior",
-    facebook:"",
-    instagram:"",
-    telephone:"4431-2085",
-    map:'<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.042733065982!2d-58.452739785608046!3d-34.62836038045306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca303cfc6189%3A0xeafc98fb896ad510!2sAv.%20Pedro%20Goyena%201608%2C%20C1424%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614538866396!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    id: 4
-    },
-    {
     name:"MARTA LALE",
     category:"COSMETICOS",
     adress:"Aranguren y Acoyte",

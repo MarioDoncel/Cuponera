@@ -13,6 +13,19 @@ const stores = [
         id: 1
     },
     {
+        name: "BY AM",
+        category: "ASESORAMIENTO MÍSTICO",
+        adress: "Av. Rivadavia 5283",
+        contact: "",
+        picture: "./assets/stores/HOLISTICOESOTERICO.webp",
+        cuponClass: "senior",
+        facebook: "",
+        instagram: "",
+        telephone: "4093-1136",
+        map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.386237171502!2d-58.44421687304685!3d-34.6196786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca47569bb473%3A0x9e8cca7bd66da98f!2sAsesoramiento%20M%C3%ADstico!5e0!3m2!1spt-BR!2sbr!4v1650503305863!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        id: 27
+    },
+    {
         name: "BBERAZ TIENDA DE BEBIDAS",
         category: "BEBIDAS",
         adress: "Av Diasz velez 5331",
@@ -207,6 +220,19 @@ const stores = [
         telephone: "6000-6400",
         map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4999619698942!2d-58.443606684387724!3d-34.61680388045608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3f9ef4b133%3A0xea9e8379aec22858!2sColpayo%20303%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1624241598211!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
         id: 10
+    },
+    {
+        name: "ASÍ EMPIEZA",
+        category: "ROPA INFANTIL",
+        adress: "Av Rivadavia N° 6041",
+        contact: "",
+        picture: "./assets/stores/ROPAINFANTIL.webp",
+        cuponClass: "senior",
+        facebook: "",
+        instagram: "",
+        telephone: "5001-5408",
+        map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.211843997961!2d-58.45268008451664!3d-34.62408648045425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b3caed1d5%3A0x44775e3a18cf5160!2sAv.%20Rivadavia%206041%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1650503456841!5m2!1spt-BR!2sbr"  width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        id: 28
     },
     {
         name: "ESTUDIO AFRICA",

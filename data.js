@@ -117,19 +117,7 @@ const stores = [
         map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1160.9875589936821!2d-58.446913177670105!3d-34.61000984299245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca1169db453b%3A0xd53b603d2f7ac785!2sFranklin%20914%2C%20C1405%20DEL%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539119281!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
         id: 11
     },
-    {
-        name: "LA CATEDRAL BURGUER",
-        category: "HAMBURGUER",
-        adress: "Doblas 607",
-        contact: "helohimapitrelli@gmail.com",
-        picture: "./assets/stores/HAMBURGUER.jpg",
-        cuponClass: "senior",
-        facebook: "",
-        instagram: "",
-        telephone: "3762-4737",
-        map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.210249481032!2d-58.43276688560832!3d-34.6241267804541!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca4e4b3a0957%3A0x6a17210f80bf34e2!2sDoblas%20607%2C%20C1424%20BLM%2C%20Buenos%20Aires%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539154341!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-        id: 12
-    },
+
     {
         name: "INGLES &PORTUGUES",
         category: "IDIOMA",

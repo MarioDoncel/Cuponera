@@ -56,7 +56,7 @@ howUse.addEventListener('click', () => {
                 categoría de compra mínima por haberlo hecho. Quien lo atienda verificará sus cinco compras
                 y las mismas determinarán el valor del cupón que Usted recibirá en una mejor categoría.</p>
 
-                <p>Así sucesivamente a cada compra le habilitarán un cupón de mayor valor pasando por el de $100,- $200,- $500,- y $1.000,- economizando al usarlos todos un total de $1.870,- con la única condición de completar sus pagos en efectivo..</p>
+               
 
                 <h3>LLEVE SIEMPRE EN SU CARTERA NUESTROS CUPONES PARA ECONOMIZAR SU DINERO</h4>
             </div>

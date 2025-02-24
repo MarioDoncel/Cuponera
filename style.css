@@ -581,17 +581,18 @@ footer a img{
     padding: 4px 10px;
     border-radius: 15px;
     border: 1px solid rgb(255, 255, 255);
+    background: black
 }
 .information .cuponClass p{
     color: white;
 }
-.master {
+.cuponClass .master {
     background: var(--master);
 }
-.senior {
+.cuponClass .senior {
     background: var(--senior);
 }
-.junior {
+.cuponClass .junior {
     background: var(--junior);
 }
 

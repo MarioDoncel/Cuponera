@@ -69,7 +69,7 @@ const stores = [
         category: "PET SHOP",
         adress: "Bogotá 1975",
         contact: "",
-        picture: "./assets/stores/buena_onda.jpg",//! Missing image
+        picture: "./assets/stores/pet_shop_pampsy.jpeg",
         cuponClass: "junior",
         facebook: "",
         instagram: "",
@@ -80,7 +80,7 @@ const stores = [
     {
         name: "LA DULCERIA",
         category: "DULCERIA",
-        adress: "Boedo", //! Missing address
+        adress: "Solo envios", 
         contact: "",
         picture: "./assets/stores/la_dulceria.jpg",
         cuponClass: "senior",
@@ -253,8 +253,8 @@ const stores = [
         category: "PODOLOGO",
         adress: "Espinosa 68",
         contact: "horacioraposo@ymail.com",
-        picture: "./assets/stores/podologo.jpg",
-        cuponClass: "senior",
+        picture: "./assets/stores/podologo1.jpg",
+        cuponClass: "acept uso especial",
         facebook: "",
         instagram: "",
         telephone: "3033-2221",

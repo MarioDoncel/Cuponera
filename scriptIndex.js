@@ -59,7 +59,7 @@ howUse.addEventListener('click', () => {
                 
             </div>
             <div class="imageModal">
-                <img src="./assets/como_user_hero.jpeg" alt="Como usar">
+                <img src="./assets/como_usar_hero.jpeg" alt="Como usar">
             </div>
         </div>
         <div class="closeModal" onclick="closeModal()">

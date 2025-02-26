@@ -39,6 +39,19 @@ const stores = [
         id: 10
     },
     {
+        name: "IDIOMAS",
+        category: "PROFESORA XIMENA - INGLÉS PORTUGUÉS",
+        adress: "Caballito Av Rivadavia y Víctor Martínez",
+        contact: "",
+        picture: "./assets/stores/profe_ximena_ingles.jpg",
+        cuponClass: "acepta uso especial",
+        facebook: "",
+        instagram: "",
+        telephone: "5175-5323",
+        map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.27632681885!2d-58.4457628!3d-34.6224567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3961ecbdcb%3A0x37ac83999d9a8e23!2sAv.%20Rivadavia%20%26%20V%C3%ADctor%20Mart%C3%ADnez%2C%20C1424%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1740532368317!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+        id: 4
+    },
+    {
         name: "PET SHOP EL PARQUE",
         category: "PET SHOP",
         adress: "Víctor Martínez 1314",

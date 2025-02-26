@@ -59,7 +59,7 @@ howUse.addEventListener('click', () => {
                 
             </div>
             <div class="imageModal">
-                <img src="./assets/LOSseisCASA1870.webp" alt="Como usar">
+                <img src="./assets/como_user_hero.jpeg" alt="Como usar">
             </div>
         </div>
         <div class="closeModal" onclick="closeModal()">
@@ -75,7 +75,7 @@ howItIs.addEventListener('click', () => {
     <div class="modal">
         <div class="howItIs">
             <div class="imageModal">
-                <img src="./assets/COMOSON.webp" alt="Como es">
+                <img src="./assets/como_son.jpeg" alt="Como es">
             </div>
         </div>
         <div class="closeModal" onclick="closeModal()">

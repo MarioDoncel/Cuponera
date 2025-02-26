@@ -39,8 +39,8 @@ const stores = [
         id: 10
     },
     {
-        name: "IDIOMAS",
-        category: "PROFESORA XIMENA - INGLÉS PORTUGUÉS",
+        name: "PROFESORA XIMENA - INGLÉS PORTUGUÉS",
+        category: "IDIOMAS",
         adress: "Caballito Av Rivadavia y Víctor Martínez",
         contact: "",
         picture: "./assets/stores/profe_ximena_ingles.jpg",

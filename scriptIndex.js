@@ -38,27 +38,25 @@ howUse.addEventListener('click', () => {
     <div class="modal">
         <div class="howItWorks">
             <div class="textModal">
-                <h5>¿Como usar? </h5>
-                <p>Los Establecimientos aceptan los cupones en una de las 5 (cinco) categorías de “COMPRA MÍNIMA” a ser Junior, Senior, Master, Extra y Black Friday equivalentes a ahorrar 5%, 10%, 20%, 40% y 50% respectivamente.</p>
-                <p>Hay dos formas de mejorar esta categoría al usarlos y cada Establecimiento Habilitado es obligado a aceptar, por lo menos, una de ellas.</p>
-                <p>Estas formas son el USO PROGRESIVO y el USE 5 (CINCO) VECES.</p>
-                <p>Usted precisa verificar cual puede usar visitando cada Establecimiento siendo que algunos de
-                ellos lo sorprenderán aceptando las dos formas combinadas para que Usted ahorre más
-                dinero.</p>
+                <h2>¿Como usar? </h2>
+                <p>Los Establecimientos aceptan los cupones en 2 (dos) categorías de “COMPRA MÍNIMA” a ser
+                Junior y Senior equivalentes a ahorrar 5% y 10% respectivamente.</p>
+                </br>
+                <h5>DUPLICA Y CUADRUPLICA TU DESCUENTO CON EL:
+                USO PROGRESIVO</h5>
+                <p>Basta usar los cupones de forma progresiva (de menor a mayor) comienza con el de más bajo
+                valor y solicita a quien atienda una mejora de la categoría de compra mínima por usarlos de
+                esta manera.</p>
+                <h5>YA DUPLICASTE TU DESCUENTO</h5>
+                <h5>AHORA USA CINCO VECES</h5>
+                <p>Usa 5 (cinco) veces los cupones en el mismo lugar y solicita a quien atienda una mejora de la
+                categoría de compra mínima por haberlo hecho.</p>
+                <p>Verificará las 5 (cinco) compras y mejorará la categoría de tus cupones por segunda vez en la
+                quinta compra.</p>
                 <br> 
-                <h5>USO PROGRESIVO </h5>
-                <p>Basta usar los cupones de forma progresiva (de menor a mayor 20/50/100/200/500/1.000)
-                comienza con el de más bajo valor y solicita a quien lo atienda una mejora de la categoría de
-                compra mínima por usarlos de esta manera.</p>
-                <br>
-                <h5>USE CINCO VECES </h5>
-                <p>Use 5 (cinco) veces los cupones en el mismo lugar y solicita a quien lo atienda una mejora de la
-                categoría de compra mínima por haberlo hecho. Quien lo atienda verificará sus cinco compras
-                y las mismas determinarán el valor del cupón que Usted recibirá en una mejor categoría.</p>
-
-               
-
-                <h3>LLEVE SIEMPRE EN SU CARTERA NUESTROS CUPONES PARA ECONOMIZAR SU DINERO</h4>
+                <h5>YA CUADRUPLICASTE TU DESCUENTO EN LA QUINTA COMPRA</h5></br>
+                <h5>LLEVA SIEMPRE EN LA CARTERA CUPONES PARA ECONOMIZAR DINERO TODOS LOS DIAS</h5>
+                
             </div>
             <div class="imageModal">
                 <img src="./assets/LOSseisCASA1870.webp" alt="Como usar">

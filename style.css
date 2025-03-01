@@ -206,7 +206,7 @@ main {
 }
 .distribution .map img {
     cursor: pointer;
-    margin-top: -2rem;
+    margin-top: 0.5rem;
     width: 450px;
     object-fit: cover;
     border: 2px solid var(--modernBlack);

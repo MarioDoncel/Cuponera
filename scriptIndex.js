@@ -36,36 +36,34 @@ howItWorks.addEventListener('click', () => {
 howUse.addEventListener('click', () => {
     modalHtml = `
     <div class="modal">
-        <div class="howItWorks">
-            <div class="textModal">
-                <h2>¿Como usar? </h2>
-                <p>Los Establecimientos aceptan los cupones en 2 (dos) categorías de “COMPRA MÍNIMA” a ser
-                Junior y Senior equivalentes a ahorrar 5% y 10% respectivamente.</p>
-                </br>
-                <h5>DUPLICA Y CUADRUPLICA TU DESCUENTO CON EL:
-                USO PROGRESIVO</h5>
-                <p>Basta usar los cupones de forma progresiva (de menor a mayor) comienza con el de más bajo
-                valor y solicita a quien atienda una mejora de la categoría de compra mínima por usarlos de
-                esta manera.</p>
-                <h5>YA DUPLICASTE TU DESCUENTO</h5>
-                <h5>AHORA USA CINCO VECES</h5>
-                <p>Usa 5 (cinco) veces los cupones en el mismo lugar y solicita a quien atienda una mejora de la
-                categoría de compra mínima por haberlo hecho.</p>
-                <p>Verificará las 5 (cinco) compras y mejorará la categoría de tus cupones por segunda vez en la
-                quinta compra.</p>
-                <br> 
-                <h5>YA CUADRUPLICASTE TU DESCUENTO EN LA QUINTA COMPRA</h5></br>
-                <h5>LLEVA SIEMPRE EN LA CARTERA CUPONES PARA ECONOMIZAR DINERO TODOS LOS DIAS</h5>
-                
-            </div>
-            <div class="imageModal">
-                <img src="./assets/como_usar_hero.jpeg" alt="Como usar">
-            </div>
+    <div class="howItWorks">
+        <div class="textModal">
+            <h2>🛒 ¿Cómo usar?</h2>
+            <p>Los comercios aceptan cupones en dos categorías de compra mínima:</p>
+            <p>🔹 Categoría Junior → Ahorrás un 5%</p>
+            <p>🔸 Categoría Senior → Ahorrás un 10%</p>
+            <br>
+
+            <h5>DUPLICA Y CUADRUPLICA TU DESCUENTO CON EL USO PROGRESIVO</h5>
+            <p>📈 DUPLICÁ tu descuento desde la primera compra, empezá usando los cupones de menor a mayor valor y quien te atienda mejora tu categoría de COMPRA MÍNIMA por usarlos progresivamente.</p>
+
+            <h5>EN LA QUINTA COMPRA 🎯 CUADRUPLICÁ tu descuento</h5>
+            <p>✅ Usá tus cupones 5 veces en el mismo lugar y al llegar a la quinta compra, mejoran tu categoría de compra mínima por segunda vez</p>
+
+            <br>
+            <h5>EN LAS TIENDAS QUE ACEPTAN EL USO ESPECIAL TUS CUPONES SE USAN IGUAL A DINERO</h5>
+            <br>
+            <h5>Llevá siempre cupones en tu cartera y economiza todos los días</h5>
         </div>
-        <div class="closeModal" onclick="closeModal()">
-            <span> CERRAR</span>
+
+        <div class="imageModal">
+            <img src="./assets/como_usar_hero.jpeg" alt="Como usar">
         </div>
     </div>
+    <div class="closeModal" onclick="closeModal()">
+        <span>CERRAR</span>
+    </div>
+</div>
     `
     modal.innerHTML = modalHtml
     modal.classList.add("active")
@@ -89,6 +87,7 @@ howItIs.addEventListener('click', () => {
 function closeModal() {
     modal.classList.remove("active")
 }
+
 
 
 

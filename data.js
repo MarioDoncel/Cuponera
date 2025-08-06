@@ -312,6 +312,99 @@ const stores = [
         telephone: "6955-1478",
         map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3261108445345!2d-58.448889485608426!3d-34.621198380454885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3bf7f5a135%3A0x7486a3a1dc42c4f0!2sYerbal%201101%2C%20C1406GJC%20CABA%2C%20Argentina!5e0!3m2!1spt-BR!2sbr!4v1614539461830!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
         id: 24
-    }
+    },
+    {
+    name: "PETRO BELLEZA",
+    category: "ESTÉTICA",
+    adress: "Av. Rivadavia 6585",
+    contact: "",
+    picture: "./assets/stores/ESTETICAPETRO.jpg",
+    cuponClass: "senior",
+    facebook: "",
+    instagram: "",
+    telephone: "11 3427-6955",
+    map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0854298380727!2d-58.46120852327663!3d-34.627281358744845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca26610f7a29%3A0x6c180dfabd578158!2sAv.%20Rivadavia%206585%2C%20C1406%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1754236591631!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 30
+},
+{
+    name: "FARAON BARBERCLUB",
+    category: "BARBERÍA",
+    adress: "Av Rivadavia 5508",
+    contact: "",
+    picture: "./assets/stores/BARBEFARAON.jpg",
+    cuponClass: "senior",
+    facebook: "",
+    instagram: "",
+    telephone: "11 6243-7531",
+    map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.3183296015272!2d-58.44547392327667!3d-34.621395058433734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca38e03a8b0b%3A0xdc4508d2bfb1c6d3!2sAv.%20Rivadavia%205508%2C%20C1424%20CEX%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1754236637324!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 31
+},
+{
+    name: "ALMA GOURMET",
+    category: "CACEROLAS",
+    adress: "Sin dirección",
+    contact: "",
+    picture: "./assets/stores/almagourmet.jpg",
+    cuponClass: "junior",
+    facebook: "",
+    instagram: "",
+    telephone: "11 5019-7592",
+    map: "",
+    id: 32
+},
+{
+    name: "GIGA COMPUTERS",
+    category: "COMPUTACIÓN",
+    adress: "Av. Rivadavia 6053",
+    contact: "",
+    picture: "./assets/stores/compugiga.jpg",
+    cuponClass: "junior",
+    facebook: "",
+    instagram: "",
+    telephone: "11 3606-7622",
+    map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.207021741402!2d-58.453447823276576!3d-34.62420835858216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b3000b4bf%3A0x15552583f0d3b5be!2sAv.%20Rivadavia%206053%2C%20C1406GLD%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1754236755083!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 33
+},
+{
+    name: "MARTA LALE",
+    category: "COSMÉTICA",
+    adress: "Sin dirección",
+    contact: "",
+    picture: "./assets/stores/CANDELA.jpg",
+    cuponClass: "junior",
+    facebook: "",
+    instagram: "",
+    telephone: "11 5025-8136",
+    map: "",
+    id: 34
+},
+{
+    name: "ALQUIMIA DISTRIBUIDORA",
+    category: "LIMPIEZA",
+    adress: "Camacuá 84",
+    contact: "",
+    picture: "./assets/stores/limpialquimia.jpg",
+    cuponClass: "junior",
+    facebook: "",
+    instagram: "",
+    telephone: "11 3001-0530",
+    map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0395524566643!2d-58.46090032327658!3d-34.62844075880601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca261391d5fb%3A0x5c0a07f76a2979f7!2sCamacu%C3%A1%2084%2C%20C1406DOB%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1754236794143!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 35
+},
+{
+    name: "EL CLÁSICO",
+    category: "PARRILLA",
+    adress: "Av. Avellaneda 2121",
+    contact: "",
+    picture: "./assets/stores/PARRILLACLASICO.jpg",
+    cuponClass: "junior",
+    facebook: "",
+    instagram: "",
+    telephone: "2712-9858",
+    map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.2559961176935!2d-58.4640720232767!3d-34.62297055851691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca20f54487f7%3A0x6ef4692bb0c78ebf!2sAv.%20Avellaneda%202121%2C%20C1406FYG%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1754236824988!5m2!1ses-419!2sar" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    id: 36
+}
+
 
 ]
+
